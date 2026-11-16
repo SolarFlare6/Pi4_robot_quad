@@ -1,0 +1,13 @@
+websockets>=12.0
+cryptography>=42.0.0
+zeroconf>=0.131.0   # mDNS discovery/advertising
+psutil>=5.9.0       # real-time CPU/RAM telemetry
+pyautogui>=0.9.54    # desktop virtual mouse, keyboard & media controls
+qrcode>=7.4.2       # QR code pairing generation
+pillow>=10.0.0      # PNG image rendering for QR codes
+smbus2>=0.4.3       # optional: enables real I2C bus scanning
+cactus-needle>=3.2.0 # on-device Cactus Compute Needle 3 tool-calling AI
+# Bluetooth / BLE support (optional):
+# On Windows: winrt-windows-devices-bluetooth, winrt-windows-devices-bluetooth-genericattributeprofile
+# On Linux (Raspberry Pi): bluezero or dbus-next
+
